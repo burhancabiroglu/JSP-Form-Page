@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>SIGN UP PAGE</title>
+</head>
+<body>
+<form action="signServlet" style="border:1px solid #ccc" method="post">
+  <div class="container">
+   
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="fullname"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Name" name="fullname" >
+
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" >
+
+    <label for="Adress"><b>Adress</b></label>
+    <input type="text" placeholder="Enter Adress" name="adress" >
+
+    <!-- <label for="psw-repeat"><b>Customer Type</b></label>
+    <input type="password"  placeholder="Repeat Password" name="psw-repeat" required> -->
+
+    <label for="customerType"><b>Customer Type</b></label>
+    <br><br>
+    <input type="radio" id="individual" name="customerType" value="individual" >
+    <label for="individual">Individual(Bireysel) Customer</label> &nbsp; &nbsp;
+    <input type="radio" id="corporate" name="customerType" value="corporate" >
+    <label for="corporate">Corporate(Kurumsal) Customer</label><br>
+    <br>
+     
+
+
+
+    <div class="clearfix">
+
+
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+* {box-sizing: border-box}
+
+/*sayfa CSS ana kaynagi*/
+
+/* Full-width input fields */
+  input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+  
+  
+}
+
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+
+}
+input[type=radio]:focus {
+  background-color: #ddd;
+  outline: none;
+  width: 100%;
+  border: none;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #1B7DF7;
+  color: white;
+  padding: 14px 20px;
+  margin: 28%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 15px;
+  border-radius: 1ex;
+  
+  
+  
+}
+
+
+button:hover {
+  opacity:1;
+}
+
+
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+  float: left;
+  width: 40%;
+}
+#btn {
+  float: left;
+  width: 10%;
+  background-color: #1B7DF7;
+  color: white;
+  padding: 14px 20px;
+  margin: 28%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: none;
+  cursor: pointer;
+
+  opacity: 0.9;
+  font-size: 15px;
+  border-radius: 1ex;
+}
+
+/* Add padding to container elements */
+.container {
+  width: 600px;
+  margin: 5em auto;
+  padding: 2em;
+  background-color: #fdfdff;
+  border-radius: 0.5em;
+  box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body{
+  background-color: #EBEDF4;
+}
+
